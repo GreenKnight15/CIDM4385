@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="mainWindow" class="container">
+		<TableView id="table" dataCollection="cars" dataTransform="transform" dataFilter="filter">
+			<TableViewRow title="{title}" modelId="{id}" />
+		</TableView>
+	</Window>
+	<Window id="widget" class="container">
+			<Require type="widget" src="buttonToggle" id="buttonWidget" /> 
+	</Window>
+</Alloy>
