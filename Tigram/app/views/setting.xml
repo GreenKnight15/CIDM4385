@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="winFeed">
+		<View class="container">
+		</View>
+	</Window>
+</Alloy>
